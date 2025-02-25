@@ -1,0 +1,44 @@
+
+ @font-face {
+    font-family: 'Mirza Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mirza Regular'), url('Mirza-Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Mirza Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mirza Medium'), url('Mirza-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Mirza SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mirza SemiBold'), url('Mirza-SemiBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Mirza Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mirza Bold'), url('Mirza-Bold.woff') format('woff');
+    }
+
+
+.charmonman-regular {
+    font-family: "Charmonman", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .charmonman-bold {
+    font-family: "Charmonman", serif;
+    font-weight: 700;
+    font-style: normal;
+    }

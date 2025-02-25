@@ -1,0 +1,130 @@
+@-moz-keyframes downOut {
+    0% {
+      transform: translateZ(200px) transLateY(40px);
+    }
+    80% {
+      transform: translateZ(-10px) transLateY(0px);
+    }
+    100% {
+      transform: translateZ(0px) transLateY(0px);
+    }
+  }
+  @-webkit-keyframes downOut {
+    0% {
+      transform: translateZ(200px) transLateY(40px);
+    }
+    80% {
+      transform: translateZ(-10px) transLateY(0px);
+    }
+    100% {
+      transform: translateZ(0px) transLateY(0px);
+    }
+  }
+  @-o-keyframes downOut {
+    0% {
+      transform: translateZ(200px) transLateY(40px);
+    }
+    80% {
+      transform: translateZ(-10px) transLateY(0px);
+    }
+    100% {
+      transform: translateZ(0px) transLateY(0px);
+    }
+  }
+  @keyframes downOut {
+    0% {
+      transform: translateZ(200px) transLateY(40px);
+    }
+    80% {
+      transform: translateZ(-10px) transLateY(0px);
+    }
+    100% {
+      transform: translateZ(0px) transLateY(0px);
+    }
+  }
+  @-moz-keyframes growOut {
+    0% {
+      transform: scale(0);
+    }
+    80% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @-webkit-keyframes growOut {
+    0% {
+      transform: scale(0);
+    }
+    80% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @-o-keyframes growOut {
+    0% {
+      transform: scale(0);
+    }
+    80% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes growOut {
+    0% {
+      transform: scale(0);
+    }
+    80% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+@media (min-width:1025px){
+    .dropdown_menu li {
+        display: none;
+        opacity: 0;
+      }
+    .nav_item:hover .dropdown_menu li {
+        display: block;
+      }
+      .nav_item:hover .dropdown_menu--animated {
+        display: block;
+      }
+
+      .dropdown_menu--animated {
+        display: none;
+      }
+      .dropdown_menu--animated li {
+        display: block;
+        opacity: 1;
+      }
+      .nav_item .dropdown_item .nav_link:hover{
+        background-color: var(--orange);
+        color: var(--darkgrey);
+      }
+      .nav_item .nav_link:hover{
+        color: var(--orange);
+      }
+      .dropdown_menu-8 {
+        animation: downOut 300ms ease-in-out forwards;
+        transform-origin: center center;
+      }
+      .dropdown_menu-9 {
+        animation: growOut 300ms ease-in-out forwards;
+        transform-origin: top center;
+      }
+}
+
+@media(max-width:1024px){
+   
+
+}
