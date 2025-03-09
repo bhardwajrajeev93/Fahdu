@@ -124,7 +124,65 @@
       }
 }
 
-@media(max-width:1024px){
-   
+@media (min-width: 1365px) {
+  .container {
+      max-width: 1310px;
+  }
+}
 
+@media(max-width:991px){
+  
+.toggle_button {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+ul.site_navigation {
+  overflow: hidden;
+  display: none;
+  background-color: #ffffff;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0px;
+  box-shadow: 0px 4px 20px 0px #CFCFCF;
+}
+.fahdu_siteheader {
+  position: relative;
+  padding: 15px 0px;
+}
+ul.site_navigation li.nav_item {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+}
+.nav_item .nav_link {
+  padding: 15px 20px;
+  font-weight: 600;
+  display: flex;
+  font-size: 16px;
+  border-top: 1px solid #000000;
+}
+ul.site_navigation li.nav_item:first-child a.nav_link {
+  border-top: 0px;
+}
+.dropdown_menu {
+  position: static;
+  width: 100%;
+}
+
+.dropdown_menu .submenudiv {
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 0px;
+}
+
+.nav_item .submenudiv .dropdown_item .nav_link {
+  border-radius: 0px !important;
+  border-top: 1px solid #F2F2F2;
+  font-weight: 400;
+}
 }
