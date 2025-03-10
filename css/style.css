@@ -860,7 +860,6 @@ a.feature_link {
 .blogs_grid > :nth-child(1) {
   grid-column: 1 / 2;
   grid-row: span 2;
-  background-color: red;
 }
 .blogs_grid > :nth-child(2),
 .blogs_grid > :nth-child(3) {
@@ -958,6 +957,8 @@ a.feature_link {
 .blogs_grid > :nth-child(2) .blog_card_inner .blogs_thumb,
 .blogs_grid > :nth-child(3) .blog_card_inner .blogs_thumb {
   height: 100%;
+  border-radius: 30px;
+  overflow: hidden;
 }
 .blogs_grid > :nth-child(1) .blog_card .blog_card_inner .blogs_thumb {
   border-radius: 30px;
