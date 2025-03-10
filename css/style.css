@@ -918,6 +918,7 @@ a.feature_link {
   display: inline-block;
   height: 100%;
   color: var(--darkgrey);
+  width: 100%;
 }
 .blog_card_wrap {
   height: 100%;
@@ -968,6 +969,113 @@ a.feature_link {
 
 .blogs_grid > :nth-child(1) h2 {
   font-size: 40px;
+}
+
+/*---- footer css start ------*/
+footer.site_footer {
+  background-color: #fff9f5;
+}
+
+.site_footer  .brand_logo {
+  width: 100%;
+  max-width: 117px;
+  margin: 0px 0px 20px;
+}
+
+.site_footer p {
+  font-size: 16px;
+  margin: 0px 0px 20px;
+  width: 100%;
+  max-width: 370px;
+}
+
+.site_footer .footer_info_col a.cta {
+  border: 2px solid var(--darkgrey);
+  box-shadow: 2px 2px var(--darkgrey);
+  color: var(--darkgrey);
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 35px;
+}
+.links_col h4 {
+  font-size: 20px;
+  margin: 0px 0px 15px;
+}
+
+.links_col ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  line-height: 0;
+}
+.links_col ul li a {
+  transition: all 0.3s linear;
+  color: var(--darkgrey);
+  font-size: 13px;
+  line-height: 1.5;
+  display: inline-block;
+  line-height: 1.7;
+  position: relative;
+}
+
+.links_col ul li:not(:last-child) {margin-bottom: 9px;}
+
+.links_col ul li a:before {
+  content: "";
+  height: 1px;
+  width: 0px;
+  background: #aaa;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  right: 0px;
+  transition: all 0.3s linear;
+}
+.links_col ul li a:hover {
+  color: #fa721b;
+}
+.links_col ul li a:hover:before {
+  width: 100%;
+}
+.socail_wrap {
+  display: flex;
+  gap: 7px;
+}
+
+.socail_wrap a {
+  background-color: var(--darkgrey);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.3s linear;
+}
+
+.socail_wrap a:hover {
+  transform: scale(1.1);
+  background-color: #ffa86b;
+}
+
+.copy_col p {
+  width: 100%;
+  max-width: 100%;
+  margin: 0px;
+  text-align: right;
+}
+
+.bottom_foot_row {
+  align-items: center;
+}
+
+.bottom_footer {
+  padding: 20px 0px;
+  border-top: 1px solid #00000029;
+  margin-top: 40px;
 }
 
 
