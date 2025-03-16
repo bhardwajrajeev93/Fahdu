@@ -176,9 +176,34 @@ ul.site_navigation {
   z-index: 100;
 }
 .fahdu_siteheader {
-  position: relative;
+  position: absolute;
   z-index: 9999;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 5px 0px;
 }
+.fahdu_siteheader.is-sticky {
+  position: fixed;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  -webkit-animation: slideHeader 0.35s ease-out;
+  animation: slideHeader 0.35s ease-out;
+}
+@keyframes slideHeader{
+  0% {
+    transform: translateY(-100%);
+  }
+  
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
 .nav_item .nav_link {
   font-size: 14px;
   font-weight: 500;
