@@ -6,6 +6,13 @@ $(document).ready(function () {
         $(".site_navigation").slideToggle();
     });
 
+// gallery_slider
+    $(".fahdu_galler_slider").slick({
+        speed: 1000,
+        arrows: false,
+        slidesToShow: 1,
+        dots:true,
+      });
 // logo slider
         $(".logo_slider").slick({
           autoplay: true,
@@ -26,6 +33,14 @@ $(".template_slider").slick({
     arrows: false,
     slidesToShow: 1,
     autoplay: true,
+    responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            dots:true,
+          }
+        }
+      ]
     
   });
 
@@ -34,6 +49,20 @@ $(".template_slider").slick({
     speed: 1000,
     arrows: true,
     slidesToShow: 3,
+    responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
   });
 
 
