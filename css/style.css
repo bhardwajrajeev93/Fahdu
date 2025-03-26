@@ -1399,7 +1399,7 @@ span.round-text .star_img {
 .nav-tabs .nav-link.active ,.nav-tabs .nav-link:hover {
   border-color: var(--orange);
   color: var(--orange);
-  background-color: #8b400c33;
+  background-color: #34251a;
 }
 .nav-tabs .nav-link:after {
   content: "";
@@ -1427,6 +1427,116 @@ span.round-text .star_img {
   background-color: #ffffff;
 }
 
+.white_header .fahdu_siteheader {
+  background-color: #1e1e1e;
+}
+.white_header .fahdu_siteheader img.dark_mode_logo {
+  display: block;
+}
+.white_header .fahdu_siteheader img.black_logo {
+  display: none;
+}
+img.dark_mode_logo {
+  display: none;
+}
+.white_header .fahdu_siteheader .nav_item > .nav_link {
+  color: #ffffff;
+}
+.white_header .fahdu_siteheader .nav_item .nav_link .toggle_dropdown img {
+  filter: invert(100);
+}
+.banner_section.black_banner {
+  padding-top: 180px;
+}
+.benefits_box {
+  background-color: #141414;
+  padding: 25px;
+  border-radius: 25px;
+  border: 3px solid #212121;
+  height: 100%;
+}
+
+.benefits_box h4 {
+  font-size: 22px;
+  margin: 0px 0px 15px;
+}
+
+.benefits_box p {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.benefits_col:nth-child(1) .benefits_box h4 {
+  color: var(--orange);
+}
+
+.benefits_col:nth-child(2) .benefits_box h4 {
+  color: #fffb9a;
+}
+
+.benefits_col:nth-child(3) .benefits_box h4 {
+  color: #97ffa8;
+}
+
+.benefits_row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.benefits_row .benefits_col {
+  flex: 50%;
+  padding: 0px 10px;
+}
+
+.benefits_block {
+  margin-top: 40px;
+}
+.new_section.dark, .media_kit_section.dark {
+  background-image: url(../images/bg-dottedblack.png);
+  background-repeat: repeat;
+  background-size: contain;
+}
+.video_slider_section {
+  position: relative;
+}
+.video_slider_section .container {
+  position: static;
+}
+.video_slider_section .slide_section_text {
+  position: static;
+}
+
+.video_slider_section .row {
+  position: static;
+}
+.video_slider_section .slider_col {
+  position: static;
+}
+.video_slider_section .image_slider_wrap {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 47%;
+}
+
+.image_slider_wrap .image_slider {
+  width: 100%;
+  height: 100%;
+}
+
+.image_slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image_slider_wrap .image_slider .image_slide {
+  height: 100%;
+}
 
 
 
