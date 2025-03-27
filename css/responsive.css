@@ -374,6 +374,9 @@ span.flower_span {
 .media_text_row {
     gap: 30px;
 }
+img.left_patr_banner, img.right_patr_banner {
+  width: 18%;
+}
 }
 
 @media (max-width:575px){
