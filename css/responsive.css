@@ -344,6 +344,50 @@ ul.site_navigation li.nav_item:first-child a.nav_link {
 .spot_light_vid {
   width: 280px;
 }
+.white_header .bar {
+  background-color: #ffa86b;
+}
+
+.white_header .fahdu_siteheader .nav_item > .nav_link {
+  color: #1e1e1e;
+}
+
+.white_header .fahdu_siteheader .nav_item .nav_link .toggle_dropdown img {
+  filter: none;
+}
+
+.banner_section.black_banner {
+  padding: 60px 0px;
+}
+
+.cutom_tabs .tab-content h3 {
+  font-size: 40px;
+}
+
+.cutom_tabs .tab-content {
+  padding: 20px;
+}
+
+.cutom_tabs .tab-content p {
+  font-size: 14px;
+}
+
+.nav-tabs .nav-link span.tab_number {
+  font-size: 120px;
+}
+
+.nav-tabs .nav-link {
+  font-size: 18px;
+  height: 160px;
+}
+
+.benefits_box p {
+  font-size: 15px;
+}
+
+.image_slide video {
+  object-fit: contain;
+}
 }
 
 @media (max-width:767px){
@@ -376,6 +420,55 @@ span.flower_span {
 }
 img.left_patr_banner, img.right_patr_banner {
   width: 18%;
+}
+.video_slider_section .image_slider_wrap {
+  position: static;
+  height: auto;
+  width: 100%;
+}
+
+.image_slider_wrap .image_slider .image_slide {
+  line-height: 0;
+}
+
+.cutom_tabs .tabs_wrapper_content .tabs_content_image {
+  max-width: 100%;
+  padding: 20px 0px 0px;
+}
+
+.cutom_tabs .tabs_wrapper_content {
+  flex-direction: column;
+}
+
+.cutom_tabs .tab-content {
+  max-width: 100%;
+}
+
+.cutom_tabs {
+  margin: 20px 0px 50px;
+}
+
+.ideal_match_row {
+  flex-wrap: wrap;
+}
+
+.ideal_match_row .ideal_match_text {
+  width: 100%;
+  padding: 30px;
+}
+
+.ideal_match_jikr_col {
+  margin-left: auto;
+  margin-top: 00px;
+}
+
+.nav-tabs .nav-link {
+  font-size: 15px;
+  height: 100px;
+}
+
+.nav-tabs .nav-link span.tab_number {
+  font-size: 88px;
 }
 }
 
@@ -626,5 +719,30 @@ span.heding_span {flex-wrap: wrap;}
 
 .blog_float_card .blog_card_inner .blog_content h2 {
   font-size: 18px;
+}
+.nav-tabs .nav-link:after {
+  display: none;
+}
+
+.cutom_tabs .nav.nav-tabs {
+  flex-wrap: wrap;
+  gap: 20px 0px;
+  margin: 0px -10px 20px;
+}
+
+.cutom_tabs .nav.nav-tabs li.nav-item {
+  width: 50%;
+}
+
+.benefits_box p {
+  font-size: 14px;
+}
+
+.ideal_match_row .ideal_match_text {
+  padding-bottom: 0px;
+}
+
+.benefits_block {
+  margin-top: 14px;
 }
 }
